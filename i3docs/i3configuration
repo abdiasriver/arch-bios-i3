@@ -9,3 +9,7 @@ sudo pacman -S pulseaudio pulseaudio-alsa pavucontrol  --noconfirm --needed
 sudo pacman -S --noconfirm --needed unace unrar zip unzip sharutils  uudeview  arj cabextract file-roller
 
 sudo pacman -S xf86-video-intel --noconfirm --needed
+
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
