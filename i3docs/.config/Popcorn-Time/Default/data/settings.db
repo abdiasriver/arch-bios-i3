@@ -1,0 +1,14 @@
+{"key":"language","value":"es","_id":"AOdoF051ViDYCvn0"}
+{"key":"disclaimerAccepted","value":1,"_id":"NeXIj0KvIbpeDVBe"}
+{"key":"releaseName","value":"Popcorn is Love","_id":"WPt4AYslkGDuYQWo"}
+{"key":"arch","value":"x64","_id":"id9u8vZymNI1YtUN"}
+{"key":"version","value":"0.3.10","_id":"mzbPTP67QunAeQUp"}
+{"key":"os","value":"linux","_id":"sBaUCaDK0hldd48k"}
+{"$$indexCreated":{"fieldName":"key","unique":true,"sparse":false}}
+{"key":"version","value":"0.3.10","_id":"mzbPTP67QunAeQUp"}
+{"key":"releaseName","value":"Popcorn is Love","_id":"WPt4AYslkGDuYQWo"}
+{"key":"arch","value":"x64","_id":"id9u8vZymNI1YtUN"}
+{"key":"os","value":"linux","_id":"sBaUCaDK0hldd48k"}
+{"key":"filters","value":{"movies":{"sorter":"trending","genre":"","order":-1}},"_id":"0wGsvzXTIORNkjmj"}
+{"key":"totalDownloaded","value":null,"_id":"llDARpQagx42BkQ7"}
+{"key":"totalUploaded","value":null,"_id":"neh6LFGVHBTLA429"}

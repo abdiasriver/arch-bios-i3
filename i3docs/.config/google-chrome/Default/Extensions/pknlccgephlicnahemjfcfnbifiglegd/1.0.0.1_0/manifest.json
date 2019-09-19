@@ -1,0 +1,27 @@
+{
+   "app": {
+      "launch": {
+         "local_path": "index.html"
+      }
+   },
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "description": "Open multiple URLs at once",
+   "homepage_url": "http://melanto.com/apps/bulk-url-opener/",
+   "icons": {
+      "128": "icon-128.png",
+      "16": "icon.png",
+      "48": "icon-48.png"
+   },
+   "incognito": "spanning",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAi858VPIUA+akIKOMD7bWdbgxE/fuZKd+TSIqxlgfL9phVc22oxHlbyssUVkWtbqkNLcuxjm2UcpM405n26G0VwGnh+ozfyVQ/NCx9RN9+ZW3FCeygASekID6EXL0UUkpGwP8+OAf1b2SeZJuxUSjzO78Qq9DeOpt/0dKForLlAyw++gepdDAU2JT/A90+8S0CQvZHV7aSzaVpAvF4SAFY450pxeHWXZQqMtJSy56niKd4pSTK+ltOiV5hNUQtNA+64wzyo6S9hz7mF7FxXD1yBX7avqjIkjKRGczHZbTsE5bsf7m4SSMmN9EU6a5npj1MpmbTjzgJ0DyJsBmUmi9QwIDAQAB",
+   "manifest_version": 2,
+   "name": "Bulk URL Opener",
+   "offline_enabled": true,
+   "permissions": [ "windows", "clipboardRead", "clipboardWrite" ],
+   "short_name": "Open URLs",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.0.1"
+}

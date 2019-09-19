@@ -1,0 +1,39 @@
+{
+   "app": {
+      "icon_color": "#EC1F27",
+      "launch": {
+         "web_url": "https://computerhoy.com/noticias/apps/chrome-crear-acceso-directo-web-escritorio-76563"
+      },
+      "linked_icons": [ {
+         "size": 32,
+         "url": "https://computerhoy.com/themes/computerhoy/favicon.ico"
+      }, {
+         "size": 48,
+         "url": "https://computerhoy.com/themes/computerhoy/favicon.ico"
+      }, {
+         "size": 64,
+         "url": "https://computerhoy.com/themes/computerhoy/favicon.ico"
+      }, {
+         "size": 96,
+         "url": "https://computerhoy.com/themes/computerhoy/favicon.ico"
+      }, {
+         "size": 128,
+         "url": "https://computerhoy.com/themes/computerhoy/favicon.ico"
+      }, {
+         "size": 256,
+         "url": "https://computerhoy.com/themes/computerhoy/favicon.ico"
+      } ]
+   },
+   "description": "Si eres de los que suele utilizar el escritorio del PC para todo, quizás te resulte útil añadir un acceso directo a una web desde Google Chrome. Así se hace.",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "53CCLqWbcACRzwrkc6vbGEtTaYLcrjLGTHvBKkbkFDQ=",
+   "name": "test",
+   "version": "2019.9.16.49224"
+}

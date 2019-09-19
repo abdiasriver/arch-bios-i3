@@ -1,0 +1,9 @@
+2019/09/18-12:25:55.656 404 Reusing MANIFEST /home/abdias/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2019/09/18-12:25:55.656 404 Recovering log #17
+2019/09/18-12:25:55.664 404 Reusing old log /home/abdias/.config/google-chrome/Default/Sync Data/LevelDB/000017.log 
+2019/09/18-12:26:05.079 510 Level-0 table #22: started
+2019/09/18-12:26:05.095 510 Level-0 table #22: 111831 bytes OK
+2019/09/18-12:26:05.098 510 Delete type=0 #17
+2019/09/18-14:18:00.298 510 Level-0 table #24: started
+2019/09/18-14:18:00.305 510 Level-0 table #24: 102620 bytes OK
+2019/09/18-14:18:00.309 510 Delete type=0 #21
