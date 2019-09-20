@@ -13,3 +13,11 @@ sudo pacman -S xf86-video-intel --noconfirm --needed
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
+
+sudo pacman -S feh arandr lxappearance compton
+
+tar -xzvf bkup.tar.gz
+
+i3-msg restart
+
+cp -r /i3iconsome/* ~/
