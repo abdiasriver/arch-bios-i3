@@ -21,3 +21,9 @@ tar -xzvf bkup.tar.gz
 i3-msg restart
 
 cp -r /i3iconsome/* ~/
+
+
+
+#check this polybar
+#https://github.com/Vista1nik/i3-rainycity
+#https://www.reddit.com/r/unixporn/comments/d5gmxc/i3gaps_rainy_city/
