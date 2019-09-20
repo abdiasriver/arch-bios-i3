@@ -27,3 +27,6 @@ cp -r /i3iconsome/* ~/
 #check this polybar
 #https://github.com/Vista1nik/i3-rainycity
 #https://www.reddit.com/r/unixporn/comments/d5gmxc/i3gaps_rainy_city/
+
+
+#Asignar workspaces a chrome con  xprop assign [class="Google-chrome"  instalar xprop para chechar el class, ejecutar en terminal y dar click en la ventana para ver el class
