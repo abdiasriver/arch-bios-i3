@@ -4,3 +4,6 @@
 curl -LO larbs.xyz/larbs.sh
 chmod +x larbs.sh
 bash larbs.sh
+
+# update base de datos npc
+#mpc update
