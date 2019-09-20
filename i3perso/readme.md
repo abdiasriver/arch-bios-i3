@@ -1,0 +1,101 @@
+i3 bar personalizada minimal y con workspaces para cad aplicacion
+--------------------------------------------------------------------------------------
+# /etc/fstab
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/sda2
+UUID=ab0fcab8-35ba-4e33-856f-3f73cfb61995       /               btrfs           rw,relatime,compress=lzo,ssd,space_cache,autodefrag,subvolid=5,subvol=/ 0 0
+
+# /dev/sda1
+UUID=772fc92c-0a0b-46ce-8bdd-1ec272f908da       /boot           ext4            rw,relatime     0 0
+
+# /dev/sda3
+UUID=4387171f-1a99-4391-b66a-6777ab99a2e8       /home           btrfs           rw,relatime,compress=lzo,ssd,space_cache,autodefrag,subvolid=5,subvol=/ 0 0
+
+# /dev/sda4
+UUID=1a8eafdf-6e3a-4cc3-a8b4-e05eaaf97bd7       none            swap            defaults        0 0
+--------------------------------------------------------------------------------------
+mkinitcpio -p linux
+ip link
+systemd-analyze
+systemd-analyze blame
+sudo pacman -S networkmanager network-manager-applet
+systemctl disable NetworkManager.service
+--------------------------------------------------------------------------------------
+sudo geany /etc/mkinitcpio.conf
+HOOKS="systemd autodetect modconf block filesystems keyboard"
+
+# COMPRESSION
+COMPRESSION="lz4"
+
+# COMPRESSION_OPTIONS
+# Additional options for the compressor
+#COMPRESSION_OPTIONS=""
+COMPRESSION_OPTIONS="-9"
+--------------------------------------------------------------------------------------
+#sudo geany /etc/default/grub
+
+# GRUB boot loader configuration
+
+GRUB_DEFAULT=0
+GRUB_TIMEOUT=0
+GRUB_DISTRIBUTOR="Arch"
+GRUB_CMDLINE_LINUX_DEFAULT="quiet udev.log_priority=3"
+GRUB_CMDLINE_LINUX=""
+GRUB_SAVEDEFAULT=false
+
+# Preload both GPT and MBR modules so that they are not missed
+GRUB_PRELOAD_MODULES="part_gpt part_msdos"
+
+# Uncomment to enable booting from LUKS encrypted devices
+#GRUB_ENABLE_CRYPTODISK=y
+
+# Set to 'countdown' or 'hidden' to change timeout behavior,
+# press ESC key to display menu.
+#GRUB_TIMEOUT_STYLE=menu
+
+# Uncomment to use basic console
+GRUB_TERMINAL_INPUT=console
+
+# Uncomment to disable graphical terminal
+#GRUB_TERMINAL_OUTPUT=console
+
+# The resolution used on graphical terminal
+# note that you can use only modes which your graphic card supports via VBE
+# you can see them in real GRUB with the command `vbeinfo'
+GRUB_GFXMODE=auto
+
+# Uncomment to allow the kernel use the same resolution used by grub
+GRUB_GFXPAYLOAD_LINUX=keep
+
+# Uncomment if you want GRUB to pass to the Linux kernel the old parameter
+# format "root=/dev/xxx" instead of "root=/dev/disk/by-uuid/xxx"
+#GRUB_DISABLE_LINUX_UUID=true
+
+# Uncomment to disable generation of recovery mode menu entries
+GRUB_DISABLE_RECOVERY=true
+
+# Uncomment and set to the desired menu colors.  Used by normal and wallpaper
+# modes only.  Entries specified as foreground/background.
+#GRUB_COLOR_NORMAL="light-blue/black"
+#GRUB_COLOR_HIGHLIGHT="light-cyan/blue"
+
+# Uncomment one of them for the gfx desired, a image background or a gfxtheme
+#GRUB_BACKGROUND="/path/to/wallpaper"
+#GRUB_THEME="/path/to/gfxtheme"
+
+# Uncomment to get a beep at GRUB start
+#GRUB_INIT_TUNE="480 440 1"
+
+# Uncomment to make GRUB remember the last selection. This requires to
+# set 'GRUB_DEFAULT=saved' above.
+#GRUB_SAVEDEFAULT="true"
+
+
+
+#sudo grub-mkconfig -o /boot/grub/grub.cfg
+--------------------------------------------------------------------------------------
+
+i3-msg restart
