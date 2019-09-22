@@ -1,6 +1,9 @@
 i3-msg restart
 trizen xlogin-git
 sudo systemctl enable xlogin@$name
+sudo pacman -S xorg xdg-usr-dirs
+#update base de datos npc
+#mpc update
 
 
 sudo pacman -S gst-plugins-good gst-plugins-bad gst-plugins-base gst-plugins-ugly  gstreamer  --noconfirm --needed
@@ -18,8 +21,6 @@ sudo pacman -S feh arandr lxappearance compton
 
 tar -xzvf bkup.tar.gz
 
-i3-msg restart
-
 cp -r /i3iconsome/* ~/
 
 
@@ -31,6 +32,7 @@ cp -r /i3iconsome/* ~/
 
 #Asignar workspaces a chrome con  xprop assign [class="Google-chrome"  ejecutar en terminal y dar click en la ventana para ver el class
 #xprop | grep WM_CLASS 
+i3-msg restart
 #restart i3 ($mod+Shift+r 
 
 
