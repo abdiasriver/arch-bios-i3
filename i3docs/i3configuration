@@ -1,3 +1,4 @@
+sudo dd bs=4M if=archlinux.iso of=/dev/sdX status=progress && sync
 i3-msg restart
 trizen xlogin-git
 sudo systemctl enable xlogin@$name
