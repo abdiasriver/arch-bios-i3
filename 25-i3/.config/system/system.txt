@@ -1,0 +1,6 @@
+ sudo cp /etc/mkinitcpio.conf /home/abdias/25-i3/system
+[abdias@river ~]$ sudo cp /boot/syslinux/syslinux.cfg /home/abdias/25-i3/system
+[abdias@river ~]$ sudo cp /etc/fsta /home/abdias/25-i3/system
+cp: no se puede efectuar `stat' sobre '/etc/fsta': No existe el fichero o el directorio
+[abdias@river ~]$ sudo cp /etc/fstab /home/abdias/25-i3/system
+
