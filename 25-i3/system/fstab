@@ -1,0 +1,9 @@
+# /dev/sda2
+UUID=238db580-b8f5-4b97-adbd-d9c05b11cc08	/         	btrfs     	rw,relatime,ssd,space_cache,subvolid=5,subvol=/	0 0
+
+# /dev/sda1
+UUID=9618c2a9-2f95-4e12-8783-d3d955407a26	/boot     	ext4      	rw,relatime	0 0
+
+# /dev/sda3
+UUID=f9901ddd-7169-4c0e-93ed-2af670c7a13c	none      	swap      	defaults  	0 0
+

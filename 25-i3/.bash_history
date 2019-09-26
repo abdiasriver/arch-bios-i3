@@ -414,5 +414,33 @@ yay  pacman-contrib
 sudo paccache -d
 reboot
 systemd-analyze
+exit
+power -i /org/freedesktop/UPower/devices/battery_BAT0
 upower -i /org/freedesktop/UPower/devices/battery_BAT0
+yay upower
+upower -i /org/freedesktop/UPower/devices/battery_BAT0
+$ upower -i $(upower -e | grep BAT) | grep --color=never -E "state|to\ full|to\ empty|percentage"
+sudo tlp fullcharge
+yay tlp
+yay tlp
+yay tlp
+sudo pacman -Syy
+sudo pacman -S tlp
+sudo tlp fullcharge
+sudo tlp fullcharge
+sudo tlp fullcharge
+sudo tlp fullcharge
+sudo tlp fullcharge
+sudo tlp start
+sudo tlp fullcharge
+sudo tlp bat
+sudo tlp fullcharge
+sudo tlp setcharge 70 90 BAT0
+sudo tlp chargeonce [ BAT0 | BAT1 ]
+sudo tlp chargeonce [ BAT0 ]
+sudo tlp recalibrate [ BAT0 | BAT1 
+sudo tlp recalibrate [ BAT0 ]
+sudo tlp recalibrate BAT0
+sudo tlp recalibrate BAT0
 yay axel
+axel -n 6 https://github-production-release-asset-2e65be.s3.amazonaws.com/195270052/bf661180-d7e9-11e9-9dff-f843f0255d72?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190926%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190926T015502Z&X-Amz-Expires=300&X-Amz-Signature=4b2a44d1a773d59df34963aab30434194e69892388decd8e5ea9840faacae37c&X-Amz-SignedHeaders=host&actor_id=13319563&response-content-disposition=attachment%3B%20filename%3Dendeavouros-2019.09.15-x86_
