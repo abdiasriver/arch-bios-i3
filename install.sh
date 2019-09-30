@@ -78,3 +78,4 @@
 ####
 #sudo pacman -S i3-gaps xorg-server xorg-xinit
 # add exec i3 to .xinitrc
+#echo "exec i3" >> ~/.xinitrc
