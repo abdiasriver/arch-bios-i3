@@ -79,3 +79,9 @@
 #sudo pacman -S i3-gaps xorg-server xorg-xinit
 # add exec i3 to .xinitrc
 #echo "exec i3" >> ~/.xinitrc
+#
+#
+#
+#cp -r directorio/ ruta_de_destino/nombre_copia
+#chmod -R 777 grub/*
+#chmod -R 777 grub
