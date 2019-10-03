@@ -1,0 +1,114 @@
+/bin/sh: ff-theme-util: orden no encontrada
+conky: desktop window (f4) is root window
+conky: window type - override
+conky: drawing to created window (0x1800001)
+conky: drawing to double buffer
+conky: forked to background, pid is 843
+
+i3status: trying to auto-detect output_format setting
+i3status: auto-detected "i3bar"
+conky: desktop window (f4) is root window
+conky: window type - override
+conky: drawing to created window (0x1c00001)
+conky: drawing to double buffer
+conky: forked to background, pid is 876
+
+[ 30/09/19 22:33:27.171 parse_config_libconfig WARN ] Option `no-dock-shadow` is deprecated, and will be removed. Please use the wintype option `shadow` of `dock` instead.
+[ 30/09/19 22:33:27.171 parse_config_libconfig WARN ] vsync option will take a boolean from now on. "none" is interpreted as "false" for compatibility, but this will stop working soon
+[ 30/09/19 22:33:27.171 parse_config_libconfig WARN ] glx-swap-method has been deprecated since v6, your setting "undefined" should be removed.
+[ 30/09/19 22:33:27.171 parse_config_libconfig WARN ] "clear-shadow" is removed as an option, and is always enabled now. Consider removing it from your config file
+[ 30/09/19 22:33:27.171 parse_config_libconfig WARN ] "paint-on-overlay" has been removed as an option, and is enabled whenever possible
+
+(pamac-tray:814): Gdk-CRITICAL **: 22:33:27.864: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+/usr/bin/manjaro-hello:76: DeprecationWarning: Gtk.Widget.set_margin_left is deprecated
+  img.set_margin_left(2)
+DEBUG:root:_DATA_DIR is /usr/share/application-utility
+DEBUG:root:_PREF_FILE is /usr/share/application-utility/preferences.json
+DEBUG:root:self.file is {'desktop': '', 'main': '/usr/share/application-utility/default.json'}
+INFO:root:json to merge : /usr/share/application-utility/default.json
+DEBUG:root:json : /tmp/manjaro-hello-preferences.json
+WARNING:root:File not exist ? /usr/share/application-utility/i3.json
+DEBUG:root:
+--- read data.json with FILTERS ---
+
+DEBUG:root:my desktop: i3
+DEBUG:root:filter    : 
+DEBUG:root:groups    : *
+DEBUG:root:	filter app: Epiphany ['advanced'] < 
+DEBUG:root:	filter app: Falkon ['advanced'] < 
+DEBUG:root:	filter app: Konqueror ['advanced'] < 
+DEBUG:root:	filter app: Netsurf ['advanced'] < 
+DEBUG:root:	filter app: Claws Mail ['advanced'] < 
+DEBUG:root:	filter app: Geary ['advanced'] < 
+DEBUG:root:	filter app: KMail ['advanced'] < 
+DEBUG:root:	filter app: Atom ['advanced'] < 
+DEBUG:root:	filter app: Geany ['advanced'] < 
+DEBUG:root:	filter app: Visual Studio Code OSS ['advanced'] < 
+DEBUG:root:	filter app: Blender ['advanced'] < 
+DEBUG:root:	filter app: Transmission GTK ['advanced'] < 
+DEBUG:root:	filter app: QTransmission ['advanced'] < 
+DEBUG:root:	filter app: Grsync ['advanced'] < 
+DEBUG:root:filter group : Security ['advanced'] < 
+DEBUG:root:	filter app: Gnome Disks ['advanced'] < 
+DEBUG:root:	filter app: Gparted ['advanced'] < 
+DEBUG:root:	filter app: IsoUSB ['advanced'] < 
+DEBUG:root:filter group : Virtual Computing ['advanced'] < 
+DEBUG:root:
+--- read data.json with FILTERS ---
+
+DEBUG:root:my desktop: i3
+DEBUG:root:filter    : 
+DEBUG:root:groups    : *
+DEBUG:root:	filter app: Epiphany ['advanced'] < 
+DEBUG:root:	filter app: Falkon ['advanced'] < 
+DEBUG:root:	filter app: Konqueror ['advanced'] < 
+DEBUG:root:	filter app: Netsurf ['advanced'] < 
+DEBUG:root:	filter app: Claws Mail ['advanced'] < 
+DEBUG:root:	filter app: Geary ['advanced'] < 
+DEBUG:root:	filter app: KMail ['advanced'] < 
+DEBUG:root:	filter app: Atom ['advanced'] < 
+DEBUG:root:	filter app: Geany ['advanced'] < 
+DEBUG:root:	filter app: Visual Studio Code OSS ['advanced'] < 
+DEBUG:root:	filter app: Blender ['advanced'] < 
+DEBUG:root:	filter app: Transmission GTK ['advanced'] < 
+DEBUG:root:	filter app: QTransmission ['advanced'] < 
+DEBUG:root:	filter app: Grsync ['advanced'] < 
+DEBUG:root:filter group : Security ['advanced'] < 
+DEBUG:root:	filter app: Gnome Disks ['advanced'] < 
+DEBUG:root:	filter app: Gparted ['advanced'] < 
+DEBUG:root:	filter app: IsoUSB ['advanced'] < 
+DEBUG:root:filter group : Virtual Computing ['advanced'] < 
+DEBUG:root:
+--- read data.json with FILTERS ---
+
+DEBUG:root:my desktop: i3
+DEBUG:root:filter    : 
+DEBUG:root:groups    : *
+DEBUG:root:	filter app: Epiphany ['advanced'] < 
+DEBUG:root:	filter app: Falkon ['advanced'] < 
+DEBUG:root:	filter app: Konqueror ['advanced'] < 
+DEBUG:root:	filter app: Netsurf ['advanced'] < 
+DEBUG:root:	filter app: Claws Mail ['advanced'] < 
+DEBUG:root:	filter app: Geary ['advanced'] < 
+DEBUG:root:	filter app: KMail ['advanced'] < 
+DEBUG:root:	filter app: Atom ['advanced'] < 
+DEBUG:root:	filter app: Geany ['advanced'] < 
+DEBUG:root:	filter app: Visual Studio Code OSS ['advanced'] < 
+DEBUG:root:	filter app: Blender ['advanced'] < 
+DEBUG:root:	filter app: Transmission GTK ['advanced'] < 
+DEBUG:root:	filter app: QTransmission ['advanced'] < 
+DEBUG:root:	filter app: Grsync ['advanced'] < 
+DEBUG:root:filter group : Security ['advanced'] < 
+DEBUG:root:	filter app: Gnome Disks ['advanced'] < 
+DEBUG:root:	filter app: Gparted ['advanced'] < 
+DEBUG:root:	filter app: IsoUSB ['advanced'] < 
+DEBUG:root:filter group : Virtual Computing ['advanced'] < 
+unable to connect to the rxvt-unicode daemon: No such file or directory
+nm-applet-Message: 22:34:19.286: No keyring secrets found for RIVERA 1/802-11-wireless-security; asking user.
+
+(nm-applet:810): Gtk-WARNING **: 22:34:20.974: Can't show Caps Lock warning, since secondary icon is set
+
+(nm-applet:810): Gtk-WARNING **: 22:34:21.031: Can't show Caps Lock warning, since secondary icon is set
+/usr/bin/dmenu_recency: línea 61: -s: orden no encontrada
+
+(pcmanfm:1412): GLib-GIO-CRITICAL **: 22:38:39.887: g_file_info_get_display_name: assertion 'G_IS_FILE_INFO (info)' failed
