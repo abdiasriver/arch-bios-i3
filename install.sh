@@ -2,6 +2,8 @@
 #sudo dd bs=4M if=archlinux.iso of=/dev/sdX status=progress && sync
 #
 #loadkeys es
+#timedatectl set-ntp true
+#cfdisk
 #wifi-menu
 #gdisk /dev/sda
 #introduce  x --> z -->  y --->y
@@ -10,7 +12,7 @@
 # sda2 root
 # sda3 home
 # sda4 swap
-#mkfs.fat -F32 /dev/sda1
+#mkfs.ext4 /dev/sda1
 #mkfs.btrfs /dev/sda2 -f
 #mkfs.btrfs /dev/sda3 -f
 #mkswap /dev/sda4
@@ -34,7 +36,7 @@
 #echo 'en_US.UTF-8 UTF-8' >> /etc/locale.gen
 #echo 'LANG=en_US.UTF-8' > /etc/locale.conf
 #locale-gen
-#echo 'KEYMAP=la-latin1' > /etc/vconsole.conf
+#echo 'KEYMAP=us' > /etc/vconsole.conf
 #echo river > /etc/hostname
 #hwclock --systohc --utc
 #timedatectl set-timezone "America/Monterrey"
@@ -46,13 +48,12 @@
 #########echo -e "initrd /intel-ucode.img\r\ninitrd /initramfs-linux.img" >> /boot/loader/entries/arch.conf
 
 #
-#pacman -S grub --noconfirm
-#grub-install --target=i386-pc --recheck /dev/sda
-#
-#grub-mkconfig -o /boot/grub/grub.cfg
 #
 #pacman -S grub
-#grub-install /dev/sda
+#grub-install --target=i386-pc /dev/sda
+#######grub-install /dev/sda
+#grub-mkconfig -o /boot/grub/grub.cfg
+#######################
 #pacman -S dhcpcd --noconfirm
 #systemctl enable dhcpcd
 #
@@ -62,7 +63,7 @@
 #makepkg -si
 #yay xlogin-git
 #sudo systemctl enable xlogin@abdias
-#sudo pacman -S xf86-video-intel xdg-usr-dirs termite
+#sudo pacman -S xf86-video-intel
 #sudo pacman -S wpa_supplicant wireless_tools networkmanager
 #sudo systemctl enable NetworkManager.service
 #sudo systemctl start NetworkManager.service
