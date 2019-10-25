@@ -94,11 +94,24 @@ root #genkernel all
 root #ls /boot/kernel* /boot/initramfs*
 
 root #emerge --ask sys-kernel/linux-firmware
+###################################################################
 root #nano -w /etc/fstab
 /dev/sda10      /boot      ext2        noatime                 0 0
 /dev/sda3        none        swap     defaults                  0 0
 /dev/sda11         /            ext4      noatime                  0 1
 /dev/sda12      /home    ext4      noatime                  0 2
+
+
+# /dev/sda1
+UUID=9618c2a9-2f95-4e12-8783-d3d955407a26	/boot     	ext4      	rw,relatime	0 0
+# /dev/sda2
+UUID=238db580-b8f5-4b97-adbd-d9c05b11cc08	/         	btrfs     	rw,relatime,ssd,space_cache,subvolid=5,subvol=/	0 0
+# /dev/sda3
+UUID=238db580-b8f5-4b97-adbd-d9c05b11cc08	/home     	btrfs     	rw,relatime,ssd,space_cache,subvolid=5,subvol=/	0 0
+# /dev/sda4
+UUID=f9901ddd-7169-4c0e-93ed-2af670c7a13c	none      	swap      	defaults  	0 0
+
+########################################################################
 
 root #blkid
 root #nano -w /etc/conf.d/hostname
