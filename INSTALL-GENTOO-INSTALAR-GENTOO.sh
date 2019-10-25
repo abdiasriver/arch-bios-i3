@@ -1,14 +1,16 @@
 #Boot cd & on the shell type        gentoo
 #BORRAR & CREAR PARTICIONES
 #gdisk /dev/sda
-#mkfs.ext2 /dev/sda1
-#mkfs.btrfs /dev/sda2
-#mkfs.btrfs /dev/sda3
+#mkfs.ext2 /dev/sda1 #boot
+#mkfs.btrfs /dev/sda2   #root
+#mkfs.btrfs /dev/sda3    #home
 #mkswap /dev/sda4
 #swapon /dev/sda4
 #mount /dev/sda2 /mnt/gentoo
 #mkdir /mnt/gentoo/boot
 #mkdir /mnt/gentoo/home
+mount /dev/sda1 /mnt/gentoo/boot
+mount /dev/sda3 /mnt/gentoo/home
 cd /mnt/gentoo
 links https://www.gentoo.org/downloads/
 tar xpvf stage3-*.tar.bz2 --xattrs --numeric-owner
