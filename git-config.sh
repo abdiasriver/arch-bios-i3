@@ -23,6 +23,11 @@ ssh-keygen -t rsa -b 4096 -C "abdias@alumnos.uaslp.edu.mx"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 xclip -sel clip < ~/.ssh/id_rsa.pub
+ssh -T git@github.com
+
+# para clonar repositorio hazlo asi
+#git clone git@github.com:abdiasriver/Bot-telegram-clonar-gdrive.git
+
 echo "################################################################"
 echo "###################    T H E   E N D      ######################"
 echo "################################################################"
